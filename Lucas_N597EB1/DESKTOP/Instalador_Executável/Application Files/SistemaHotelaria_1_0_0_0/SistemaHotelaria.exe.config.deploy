@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+      
+      <!--STRING DE CONEXAO REMOTO (somee.com)-->
+
+      <add name="StringConexao" connectionString="workstation id=HotelMountain.mssql.somee.com;packet size=4096;user id=oLadeira_SQLLogin_1;pwd=gfmh3vfzcu;data source=HotelMountain.mssql.somee.com;persist security info=False;initial catalog=HotelMountain" />
+
+
+      <!--STRING DE CONEXAO LOCAL-->
+      <!--
+      <add name="StringConexao" connectionString="Data Source=DESKTOP-JJG73MK\SQLEXPRESS;Initial Catalog=HotelMountain;User ID=teste;Password=adm123;"
+          providerName="System.Data.SqlClient" />            
+          -->
+      
+  </connectionStrings>  
+  
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+</configuration>
